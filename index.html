@@ -6,8 +6,7 @@
     <title>Sharp Machine - Revolutionizing AI</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             color: #333;
@@ -19,62 +18,86 @@
             overflow: hidden;
         }
         header {
-            background: #35424a;
+            background: #1a1a1a;
             color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
+            padding: 20px 0;
         }
         header h1 {
             text-align: center;
-            text-transform: uppercase;
             margin: 0;
-            font-size: 24px;
+            font-size: 2.5em;
+        }
+        header nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        header nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
         }
         .showcase {
-            background: #e8491d;
+            background: url('https://source.unsplash.com/featured/?technology') no-repeat center center/cover;
             color: #ffffff;
+            height: 600px;
             text-align: center;
-            padding: 100px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
         }
         .showcase h1 {
-            font-size: 55px;
-            margin-top: 0;
+            font-size: 3.5em;
+            margin: 0;
         }
         .showcase p {
-            font-size: 20px;
+            font-size: 1.5em;
         }
-        .main {
-            padding: 20px 0;
+        .button {
+            display: inline-block;
+            color: #ffffff;
+            background: #e8491d;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 1.2em;
         }
-        .main h2 {
+        .section {
+            padding: 60px 0;
+        }
+        .section h2 {
             text-align: center;
-            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 2.5em;
         }
-        .main p {
+        .section p {
+            text-align: center;
             margin: 20px 0;
-            line-height: 1.5;
-            text-align: center;
+            font-size: 1.2em;
         }
-        .main ul {
-            margin: 20px auto;
-            padding: 0;
+        .section ul {
             list-style: none;
+            padding: 0;
             max-width: 600px;
+            margin: 20px auto;
         }
-        .main ul li {
+        .section ul li {
             background: #e8491d;
             color: #ffffff;
-            padding: 10px;
-            margin-bottom: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
             border-radius: 5px;
             text-align: center;
+            font-size: 1.2em;
         }
         footer {
-            background: #35424a;
+            background: #1a1a1a;
             color: #ffffff;
             text-align: center;
-            padding: 10px;
+            padding: 20px 0;
             margin-top: 20px;
         }
     </style>
@@ -83,6 +106,12 @@
     <header>
         <div class="container">
             <h1>Sharp Machine</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#technology">Technology</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
     </header>
 
@@ -90,17 +119,18 @@
         <div class="container">
             <h1>Revolutionizing AI</h1>
             <p>Leading the transformation with cutting-edge AI model sharpening technology.</p>
+            <a href="#about" class="button">Learn More</a>
         </div>
     </section>
 
-    <section class="main" id="about">
+    <section class="section" id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Sharp Machine Inc. is pioneering the next generation of AI with our innovative model sharpening technology. In an era where traditional AI models often fail in real-world applications, our approach ensures continuous improvement and adaptation, making AI truly effective in dynamic environments.</p>
+            <p>Sharp Machine Inc. is pioneering the next generation of AI with our innovative model sharpening technology. Our approach ensures continuous improvement and adaptation, making AI truly effective in dynamic environments.</p>
         </div>
     </section>
 
-    <section class="main" id="technology">
+    <section class="section" id="technology">
         <div class="container">
             <h2>Our Technology</h2>
             <p>We leverage the power of open-source pre-trained models and enhance them using our proprietary SHARP technology, which allows for efficient, cost-effective, and rapid model construction and updating.</p>
@@ -114,7 +144,7 @@
         </div>
     </section>
 
-    <section class="main" id="team">
+    <section class="section" id="team">
         <div class="container">
             <h2>Our Team</h2>
             <p>Our team comprises leading experts in AI and machine learning, dedicated to pushing the boundaries of what is possible with AI technology.</p>
@@ -126,7 +156,7 @@
         </div>
     </section>
 
-    <section class="main" id="contact">
+    <section class="section" id="contact">
         <div class="container">
             <h2>Contact Us</h2>
             <p>Get in touch with us to learn more about how Sharp Machine can revolutionize your AI capabilities.</p>
