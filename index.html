@@ -12,111 +12,84 @@
             background-color: #f4f4f4;
             color: #333;
         }
+
         header {
-            background-color: #4CAF50;
+            background-color: #007BFF;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
+
+        header .logo img {
+            width: 100px;
         }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
+
+        header h1 {
+            margin: 0;
         }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .container {
+
+        section {
             padding: 20px;
+            margin: 20px 0;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .section {
-            margin-bottom: 20px;
+
+        section h2 {
+            color: #007BFF;
         }
-        h2 {
-            color: #4CAF50;
-        }
-        .footer {
-            text-align: center;
-            padding: 10px;
+
+        footer {
             background-color: #333;
             color: white;
-        }
-        .cta-button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .cta-button:hover {
-            background-color: #45a049;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="logo.png" alt="SHARP MACHINE, Inc. Logo">
+        </div>
         <h1>SHARP MACHINE, Inc.</h1>
-        <p>Autonomous Model Maintenance Agents for a Dynamic World</p>
     </header>
-    <nav>
-        <a href="#about">About Us</a>
-        <a href="#technology">Technology</a>
-        <a href="#products">Products</a>
-        <a href="#market">Market</a>
-        <a href="#goals">Goals</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <div class="section" id="about">
-            <h2>About Us</h2>
-            <p>SHARP MACHINE, Inc. is at the forefront of the AI revolution, developing intelligent model sharpening engines. Our autonomous model maintenance agents ensure models remain up-to-date and effective in real-world scenarios.</p>
-            <p>We aim to lead the transformative "Sharp Machine" era, focusing on leveraging pre-trained models efficiently. This approach addresses unique insights and pain points in AI technology, setting us apart from other AI startups.</p>
-        </div>
-        <div class="section" id="technology">
-            <h2>Technology</h2>
-            <p>Our technology addresses the lifecycle of a model beyond its training stage. SHARP technology continuously learns and improves from new data, rather than remaining static after training. This key innovation ensures models are robust and reliable in dynamic environments.</p>
-            <p>SHARP acts as an "autonomous model maintenance agent," intelligently sharpening models as new data arrives. This major shift from static "best trained" models to "self-corrective" predictive agents significantly reduces costs and time while enhancing safety.</p>
-        </div>
-        <div class="section" id="products">
-            <h2>Products</h2>
-            <ul>
-                <li><strong>SharpDesign:</strong> Synergistic intelligence systems for semiconductor manufacturing, collaborating with leading manufacturers like Intel and ASML.</li>
-                <li><strong>SharpDefense:</strong> Advanced AI solutions for defense applications, addressing challenges in designing autonomous systems for the US military and intelligence agencies.</li>
-                <li><strong>SharpPredict:</strong> Predictive maintenance and repair for industries such as oil and gas, online real estate, and manufacturing.</li>
-                <li><strong>SharpForecast:</strong> Forecasting tools for government and industry applications, targeting sectors like energy and fintech.</li>
-                <li><strong>SharpScience:</strong> Cutting-edge models for scientific research and biotech, working with national laboratories and biotech companies.</li>
-                <li><strong>SharpCyber:</strong> Cybersecurity solutions catering to companies like CrowdStrike and Palo Alto Networks.</li>
-                <li><strong>SharpEdge:</strong> Personalized edge AI for superior user experiences, targeting companies like Apple and Qualcomm.</li>
-            </ul>
-        </div>
-        <div class="section" id="market">
-            <h2>Market Opportunity</h2>
-            <p>The AI technology sector is poised to reach a trillion-dollar market by the end of 2026. Currently, 85% of AI systems fail in real-world settings. SHARP Technology aims to capture at least 5% of this market, translating to a $40 billion opportunity over the next 5-10 years.</p>
-        </div>
-        <div class="section" id="goals">
-            <h2>Immediate Goals</h2>
-            <p>After two years of dedicated research and significant financial risk, we have established our company's vision, mission, and action plan. Our immediate priority is to secure $4 million in capital, assemble a talented team, and move into MVP production.</p>
-        </div>
-        <div class="section" id="team">
-            <h2>Our Team</h2>
-            <p>Our team, led by Dr. Subhadeep (Deep) Mukhopadhyay, consists of experts with extensive research and industry experience in AI and machine learning. Dr. Mukhopadhyay brings over 15 years of broad research expertise in data sciences and has authored more than 30 top-tier publications. His academic journey includes prestigious faculty positions at institutions such as Stanford and Temple University.</p>
-        </div>
-        <div class="section" id="contact">
-            <h2>Contact Us</h2>
-            <p>If you are interested in learning more or investing in our groundbreaking technology, please contact us:</p>
-            <p>Email: <a href="mailto:deep@unitedstatalgo.com">deep@unitedstatalgo.com</a></p>
-            <p>Phone: 979-587-9957</p>
-            <p>Location: Redwood City, CA</p>
-        </div>
-    </div>
-    <footer class="footer">
+
+    <section class="intro">
+        <h2>Revolutionizing AI with Intelligent Model Sharpening Engines</h2>
+        <p>SHARP MACHINE, Inc. is pioneering the next generation of AI technology through the development of intelligent model sharpening engines. Our innovative approach leverages open-source pre-trained ML models to construct high-quality models more efficiently and cost-effectively.</p>
+    </section>
+
+    <section class="vision">
+        <h2>Our Vision</h2>
+        <p>Our goal is to lead the transformative era of "Sharp Machine" technology, providing autonomous model maintenance agents that keep AI models up-to-date and effective in real-world scenarios.</p>
+    </section>
+
+    <section class="technology">
+        <h2>Technology</h2>
+        <p>We are witnessing a profound shift in AI, driven by the availability of powerful open-source ML models. Our model sharpening engines construct high-quality models by leveraging these pre-trained models, allowing for faster, cheaper, and more efficient AI development.</p>
+        <img src="tech-diagram.png" alt="SHARP Technology Diagram">
+    </section>
+
+    <section class="market">
+        <h2>Market Potential</h2>
+        <p>The AI technology sector is poised to reach a trillion-dollar market by 2026. With 85% of AI systems failing in real-world settings, SHARP MACHINE, Inc. aims to capture a significant share of this market by providing reliable, self-corrective predictive agents.</p>
+    </section>
+
+    <section class="prototype">
+        <h2>Prototype and Innovation</h2>
+        <p>Our research innovation goes beyond traditional AI/ML methods, focusing on the lifecycle of a model in dynamic real-world environments. Our prototype demonstrates the power of SHARP technology in maintaining and improving AI models autonomously.</p>
+    </section>
+
+    <section class="investment">
+        <h2>Investment Opportunity</h2>
+        <p>We are seeking $4 million in capital to assemble a talented team and move into MVP production. Join us in revolutionizing the AI landscape and unlocking the full potential of intelligent model sharpening technology.</p>
+    </section>
+
+    <footer>
         <p>&copy; 2024 SHARP MACHINE, Inc. All rights reserved.</p>
     </footer>
 </body>
