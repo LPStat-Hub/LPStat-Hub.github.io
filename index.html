@@ -1,202 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHARP MACHINE, Inc.</title>
+    <title>Sharp Machine, Inc.</title>
     <style>
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004a99;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
+            padding: 20px;
         }
 
-        /* Header Styles */
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77b300 3px solid;
+        h1, h2 {
+            color: #004a99;
         }
 
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-
-        /* Main Section Styles */
-        main {
-            padding: 20px 0;
-        }
-
-        main h2 {
-            text-align: center;
+        .section {
             margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        main p {
-            margin-bottom: 20px;
-        }
-
-        /* Image Styles */
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        /* Footer Styles */
         footer {
-            background: #333;
+            background-color: #004a99;
             color: #fff;
             text-align: center;
-            padding: 30px 0;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            header {
-                padding-top: 20px;
-                min-height: 50px;
-            }
-
-            header nav {
-                float: none;
-                margin-top: 0;
-            }
-
-            header li {
-                display: block;
-                text-align: center;
-                padding: 10px 0;
-            }
-
-            .container {
-                width: 90%;
-            }
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <h1>SHARP MACHINE, Inc.</h1>
-            <nav>
-                <ul>
-                    <li><a href="#vision">Vision</a></li>
-                    <li><a href="#technology">Technology</a></li>
-                    <li><a href="#market">Market Potential</a></li>
-                    <li><a href="#business">Business Model</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#invest">Why Invest</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Sharp Machine, Inc.</h1>
+        <p>Revolutionizing AI with Unique Technology</p>
     </header>
-    <main>
-        <section id="vision" class="container">
-            <h2>Our Vision</h2>
-            <p>SHARP MACHINE, Inc. is pioneering the next generation of AI technology by developing intelligent model sharpening engines. Our mission is to revolutionize the AI landscape by enabling models to autonomously learn and improve in real-world environments, addressing the critical shortcomings of current AI systems.</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#market">Market Potential</a>
+        <a href="#strategy">Strategic Fit</a>
+        <a href="#team">Team</a>
+        <a href="#progress">Progress</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Sharp Machine, Inc.</h2>
+            <p>Sharp Machine, Inc. is pioneering a new paradigm in AI through our SHARP technology, which focuses on continuously sharpening and improving AI models autonomously. This technology addresses a critical gap in the market where 85% of AI models fail in real-world applications due to the lack of self-improvement capabilities.</p>
+            <p>Our technology significantly reduces the need for constant manual intervention by ML engineers, offering a scalable, cost-effective solution for maintaining AI models in dynamic environments.</p>
         </section>
-        <section id="technology" class="container">
-            <h2>Innovative Technology</h2>
-            <p>We are at the forefront of a paradigm shift in AI model development. Our SHARP technology leverages open-source pre-trained ML models to construct high-quality models more efficiently, rapidly, and cost-effectively. This approach transforms traditional AI model development, making it faster, cheaper, and more resource-efficient.</p>
-            <img src="sharp-technology-diagram.png" alt="SHARP Technology Diagram">
-        </section>
-        <section id="market" class="container">
-            <h2>Market Potential</h2>
-            <p>The AI technology sector is poised to reach a trillion-dollar market by 2026. Currently, 85% of AI systems fail in real-world settings. SHARP TECHNOLOGY has the potential to capture a significant market share, offering a $40 billion opportunity over the next 5-10 years.</p>
-        </section>
-        <section id="business" class="container">
-            <h2>Business Model</h2>
-            <p>Customers will access our SHARP cloud through APIs, employing appropriate authentication protocols. We offer tiered pricing with escalating AI capabilities for businesses of all sizes:</p>
-            <ul>
-                <li><strong>Essentials:</strong> For small businesses and universities</li>
-                <li><strong>Professional:</strong> For growing businesses</li>
-                <li><strong>Enterprise:</strong> For larger clients, including industries like semiconductor and defense</li>
-            </ul>
-        </section>
-        <section id="team" class="container">
-            <h2>Our Team</h2>
-            <p>Deep Mukhopadhyay, CEO and Founder, brings over 15 years of research expertise in data sciences, with a distinguished academic and professional background. His vision and leadership drive the company's innovative approach to AI.</p>
-            <img src="deep-mukhopadhyay.jpg" alt="Deep Mukhopadhyay">
-        </section>
-        <section id="invest" class="container">
-            <h2>Why Invest in SHARP MACHINE, Inc.?</h2>
-            <h3>Revolutionizing AI with Unique Technology</h3>
-            <ul>
-                <li>SHARP MACHINE, Inc. is pioneering a new paradigm in AI with SHARP technology, focusing on continuously sharpening and improving AI models autonomously.</li>
-                <li>This technology addresses a critical gap where 85% of AI models fail in real-world applications due to the lack of self-improvement capabilities.</li>
-                <li>Our technology reduces the need for constant manual intervention by ML engineers, offering a scalable, cost-effective solution for maintaining AI models in dynamic environments.</li>
-            </ul>
-            
-            <h3>Market Potential and Scalability</h3>
-            <ul>
-                <li>The AI technology sector is projected to reach a trillion-dollar market by 2026.</li>
-                <li>SHARP MACHINE is uniquely positioned to capture a substantial market share by addressing the prevalent issue of model failure in real-world settings.</li>
-                <li>Even capturing just 5% of this market translates to a $40 billion opportunity over the next 5-10 years.</li>
-                <li>Our modular integration with existing AI ecosystems (e.g., Google, AWS, Microsoft) ensures rapid deployment and scalability.</li>
-            </ul>
 
-            <h3>Experienced Leadership and Advisory Team</h3>
-            <ul>
-                <li>SHARP MACHINE is led by Deep Mukhopadhyay, with over 15 years of expertise in data science and AI, and a proven track record of academic and industry leadership.</li>
-                <li>Our advisory board includes renowned AI experts like Peter Norvig, who supports our mission and validates the significance of our technology.</li>
-                <li>Our team’s extensive experience in developing and commercializing advanced AI solutions ensures that we have the strategic vision and technical expertise to execute our plans successfully.</li>
-            </ul>
-
-            <h3>Tangible Progress and Validation</h3>
-            <ul>
-                <li>We have developed and validated a working prototype of our SHARP technology, demonstrating its effectiveness and potential through rigorous testing and pilot programs.</li>
-                <li>This progress de-risks the investment and provides a clear pathway to commercialization.</li>
-                <li>The early traction and positive feedback from potential customers and industry experts underscore the market demand and viability of our solution.</li>
-            </ul>
+        <section id="market" class="section">
+            <h2>Market Potential and Scalability</h2>
+            <p>The AI technology sector is projected to reach a trillion-dollar market by 2026. Sharp Machine is uniquely positioned to capture a substantial share of this market by addressing the prevalent issue of model failure in real-world settings. Even capturing just 5% of this market translates to a $40 billion opportunity over the next 5-10 years.</p>
+            <p>Our modular integration with existing AI ecosystems (e.g., Google, AWS, Microsoft) ensures rapid deployment and scalability, which is essential for market penetration and growth.</p>
         </section>
-    </main>
+
+        <section id="strategy" class="section">
+            <h2>Strategic Fit with Forerunner Ventures’ Investment Thesis</h2>
+            <p>Forerunner Ventures thrives on identifying and investing in companies that intersect with significant consumer and technological trends. Sharp Machine’s focus on improving AI reliability and adaptability fits well with Forerunner’s thesis-driven, research-focused approach. Our technology not only promises to meet evolving market needs but also has the potential to reshape industry norms and create new standards in AI.</p>
+            <p>Our emphasis on practical, high-impact applications of AI technology in various sectors, from finance to autonomous vehicles, aligns with Forerunner’s strategy of backing companies that can deliver what modern consumers and businesses need.</p>
+        </section>
+
+        <section id="team" class="section">
+            <h2>Experienced Leadership and Advisory Team</h2>
+            <p>Sharp Machine is led by Deep Mukhopadhyay, with over 15 years of expertise in data science and AI, and a proven track record of academic and industry leadership. Our advisory board includes renowned AI experts like Peter Norvig, who supports our mission and validates the significance of our technology.</p>
+            <p>Our team’s extensive experience in developing and commercializing advanced AI solutions ensures that we have the strategic vision and technical expertise to execute our plans successfully.</p>
+        </section>
+
+        <section id="progress" class="section">
+            <h2>Tangible Progress and Validation</h2>
+            <p>We have developed and validated a working prototype of our SHARP technology, demonstrating its effectiveness and potential through rigorous testing and pilot programs. This progress de-risks the investment and provides a clear pathway to commercialization.</p>
+            <p>The early traction and positive feedback from potential customers and industry experts underscore the market demand and viability of our solution, making Sharp Machine a compelling investment opportunity for Forerunner Ventures.</p>
+        </section>
+    </div>
     <footer>
-        <div class="container">
-            <section id="contact">
-                <h2>Contact Us</h2>
-                <p>Email: deep@unitedstatalgo.com</p>
-                <p>Phone: 979.587.9957</p>
-                <p>Website: <a href="http://unitedstatalgo.com">unitedstatalgo.com</a></p>
-            </section>
-        </div>
+        <p>&copy; 2024 Sharp Machine, Inc. All Rights Reserved.</p>
     </footer>
 </body>
+
 </html>
