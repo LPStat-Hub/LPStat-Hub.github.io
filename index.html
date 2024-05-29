@@ -9,88 +9,96 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
             color: #333;
         }
-
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px 0;
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        .header {
             text-align: center;
+            padding: 20px;
+            background-color: #0073e6;
+            color: #fff;
         }
-
-        header .logo img {
-            width: 100px;
-        }
-
-        header h1 {
+        .header h1 {
             margin: 0;
         }
-
-        section {
-            padding: 20px;
-            margin: 20px 0;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        .content section {
+            margin-bottom: 40px;
         }
-
-        section h2 {
-            color: #007BFF;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
+        .footer {
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 10px;
+            background-color: #0073e6;
+            color: #fff;
+        }
+        .video {
+            text-align: center;
+        }
+        .video iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="SHARP MACHINE, Inc. Logo">
-        </div>
+    <div class="header">
         <h1>SHARP MACHINE, Inc.</h1>
-    </header>
-
-    <section class="intro">
-        <h2>Revolutionizing AI with Intelligent Model Sharpening Engines</h2>
-        <p>SHARP MACHINE, Inc. is pioneering the next generation of AI technology through the development of intelligent model sharpening engines. Our innovative approach leverages open-source pre-trained ML models to construct high-quality models more efficiently and cost-effectively.</p>
-    </section>
-
-    <section class="vision">
-        <h2>Our Vision</h2>
-        <p>Our goal is to lead the transformative era of "Sharp Machine" technology, providing autonomous model maintenance agents that keep AI models up-to-date and effective in real-world scenarios.</p>
-    </section>
-
-    <section class="technology">
-        <h2>Technology</h2>
-        <p>We are witnessing a profound shift in AI, driven by the availability of powerful open-source ML models. Our model sharpening engines construct high-quality models by leveraging these pre-trained models, allowing for faster, cheaper, and more efficient AI development.</p>
-        <img src="tech-diagram.png" alt="SHARP Technology Diagram">
-    </section>
-
-    <section class="market">
-        <h2>Market Potential</h2>
-        <p>The AI technology sector is poised to reach a trillion-dollar market by 2026. With 85% of AI systems failing in real-world settings, SHARP MACHINE, Inc. aims to capture a significant share of this market by providing reliable, self-corrective predictive agents.</p>
-    </section>
-
-    <section class="prototype">
-        <h2>Prototype and Innovation</h2>
-        <p>Our research innovation goes beyond traditional AI/ML methods, focusing on the lifecycle of a model in dynamic real-world environments. Our prototype demonstrates the power of SHARP technology in maintaining and improving AI models autonomously.</p>
-    </section>
-
-    <section class="investment">
-        <h2>Investment Opportunity</h2>
-        <p>We are seeking $4 million in capital to assemble a talented team and move into MVP production. Join us in revolutionizing the AI landscape and unlocking the full potential of intelligent model sharpening technology.</p>
-    </section>
-
-    <footer>
+    </div>
+    <div class="container">
+        <div class="content">
+            <section>
+                <h2>Company Overview</h2>
+                <p>In today's environment, where many founders are starting AI companies with little differentiation, it is crucial to highlight the unique insights and pain points that SHARP MACHINE, Inc. aims to address. This document outlines key aspects of the company, including its vision, research innovation, and technological advancements that distinguish it from the current AI landscape.</p>
+            </section>
+            <section>
+                <h2>AI Model Development: The Imminent Paradigm Shift</h2>
+                <p>SHARP MACHINE, Inc. is at the forefront of a significant shift in AI, driven by the availability of powerful open-source machine learning models. These models, which require substantial investment to train, are now accessible through platforms like Hugging Face. This dynamic is set to transform model development, moving away from traditional methods towards the development of intelligent model sharpening engines. These engines aim to construct high-quality models more efficiently by leveraging knowledge from pre-trained models. This approach represents the future of AI, where the focus will be on intelligent model sharpening rather than building models from scratch.</p>
+            </section>
+            <section>
+                <h2>Customer Needs</h2>
+                <p>An example of an unmet need that SHARP MACHINE, Inc. addresses is articulated by Svante Bergström, CEO of Lynx, during a panel discussion at the Swedish House of Finance. Bergström emphasized the need for AI models that can automatically learn and improve from available data, adapting to new information rather than following static, programmed instructions. This capability is essential not only for hedge funds but for nearly all current AI technologies, which often fail in real-world scenarios due to their inability to adapt.</p>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/AONZoaWC9v4?start=969"></iframe>
+                </div>
+            </section>
+            <section>
+                <h2>Main Idea and Prototype</h2>
+                <p>SHARP MACHINE, Inc. has developed a prototype based on the SHARP MACHINE concept. This prototype, created using R-software in collaboration with a former PhD student, demonstrates the effectiveness of SHARP technology compared to traditional methods such as fine-tuning. The research innovation of SHARP MACHINE, Inc. begins where traditional AI/ML ends, focusing on the lifecycle of a model beyond its training stage and into the unpredictable real world.</p>
+            </section>
+            <section>
+                <h2>SHARP Intelligence Layer and Nextgen AI Ecosystem Development</h2>
+                <p>The SHARP intelligence layer will be integrated into the existing AI ecosystem through API calls, functioning as an autonomous model maintenance agent. This integration ensures that models remain up-to-date by intelligently sharpening them as new data becomes available. This represents a major shift from providing static "best trained" ML models to offering self-corrective predictive agents.</p>
+            </section>
+            <section>
+                <h2>Business Model</h2>
+                <p>SHARP MACHINE, Inc. will offer access to its SHARP cloud through APIs, employing appropriate authentication protocols. The company will provide tiered pricing with escalating AI capabilities suitable for businesses of all sizes. Pricing tiers include Essentials for small businesses and universities, Professional for growth, and Enterprise for larger clients, with costs based on the number of API calls per user/month.</p>
+            </section>
+            <section>
+                <h2>Market Size Calculation</h2>
+                <p>The AI technology sector is expected to reach a trillion-dollar market by the end of 2026. Currently, 85% of AI systems fail in real-world settings. If SHARP Technology captures just 5% of this market, it represents a $40 billion opportunity over the next 5-10 years.</p>
+            </section>
+            <section>
+                <h2>Executive Bio</h2>
+                <p>Subhadeep (Deep) Mukhopadhyay brings over 15 years of extensive research expertise in data sciences, authoring more than 30 top-tier publications in statistics, machine learning, and AI. His academic journey includes prestigious faculty positions at Stanford and Temple University. As the CEO and Founder of United Analytics and Computational Intelligence, Inc., he has also served as a strategic advisor and distinguished researcher to AI companies. His multifaceted career highlights a blend of theoretical expertise and practical leadership, positioning him as a thought leader in both academia and industry.</p>
+                <p>Deep holds a Ph.D. in Statistics from Texas A&M University and a Master's in Statistics from the Indian Institute of Technology (IIT), Kanpur. His Ph.D. thesis earned him the Emanuel Parzen Graduate Research Fellowship Award. Additionally, his Master's at IIT Kanpur was marked by notable achievements, including the Sangeeta Pradhan Memorial Gold Medal, the N. Balakrishnan Award of Statistics and Director Medal, and the Prof. J N Kapur Prize for Mathematical Excellence.</p>
+            </section>
+        </div>
+    </div>
+    <div class="footer">
         <p>&copy; 2024 SHARP MACHINE, Inc. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
