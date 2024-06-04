@@ -10,28 +10,42 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background: #333;
+            background: linear-gradient(90deg, #0066cc, #0099ff);
             color: #fff;
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
         }
         nav {
             display: flex;
             justify-content: center;
             background: #444;
+            color: #fff;
         }
         nav a {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
+            transition: background 0.3s;
         }
         nav a:hover {
-            background: #555;
+            background: #0066cc;
         }
         section {
             padding: 2rem;
+            margin-bottom: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .container {
             max-width: 1100px;
@@ -39,20 +53,31 @@
             padding: 0 2rem;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #0066cc;
         }
         .diagram {
             text-align: center;
             margin: 2rem 0;
+        }
+        .diagram img {
+            max-width: 100%;
+            height: auto;
         }
         footer {
             background: #333;
             color: #fff;
             text-align: center;
             padding: 1rem 0;
-            position: fixed;
+            position: relative;
             width: 100%;
             bottom: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 0.5rem 0;
         }
     </style>
 </head>
@@ -86,10 +111,11 @@
     <section id="technology" class="container">
         <h2>Technology</h2>
         <h3>The Breakthrough</h3>
-        <p>SHARP technology marks a paradigm shift in AI development. Instead of traditional methods, our intelligent model sharpening engines leverage pre-trained ML models to create high-quality, adaptive models efficiently.</        <h3>How It Works</h3>
+        <p>SHARP technology marks a paradigm shift in AI development. Instead of traditional methods, our intelligent model sharpening engines leverage pre-trained ML models to create high-quality, adaptive models efficiently.</p>
+        <h3>How It Works</h3>
         <p>The SHARP intelligence layer integrates seamlessly with existing AI ecosystems through API calls. It acts as an autonomous model maintenance agent, continuously updating models with new data.</p>
         <div class="diagram">
-            <p><em>Diagram of SHARP integration with AI platforms like Google Vertex AI, AWS AI, Microsoft Azure AI, etc.</em></p>
+            <img src="https://via.placeholder.com/800x400" alt="Diagram of SHARP integration with AI platforms">
         </div>
         <h3>Key Features</h3>
         <ul>
@@ -156,5 +182,4 @@
     <footer>
         <p>&copy; 2024 SHARP MACHINE, Inc. All rights reserved.</p>
     </footer>
-</body>
-</html>
+</body
