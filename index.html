@@ -60,6 +60,32 @@
             font-size: 1.75em; /* Reduced font size for section titles */
             color: #003366;
         }
+        .vspace-pos {
+            margin-top: 0.4em;
+        }
+ .arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0.5em 0;
+        }
+        .arrow:before,
+        .arrow:after {
+            content: '';
+            flex: 1;
+            border-bottom: 2px solid;
+        }
+        .arrow-red:before,
+        .arrow-red:after {
+            border-color: red;
+        }
+        .arrow-blue:before,
+        .arrow-blue:after {
+            border-color: blue;
+        }
+        .arrow span {
+            margin: 0 1em;
+        }
     </style>
 </head>
 <body>
@@ -135,9 +161,16 @@
             <section>
                 <h2>The Future: General Intelligence → Sharp Intelligence</h2>
                 <div class="highlight">
-                    <strong>General Intelligence to Sharp Intelligence</strong>: Much like the impact of personal computers, sharp AI will change the world, driving the <strong>future commoditization and monetization of AI</strong>.
+                    <strong>General (base) Intelligence to Sharp Intelligence</strong>: Much like the impact of personal computers, sharp AI will change the world, driving the <strong>future commoditization and monetization of AI</strong>.
                 </div>
-                <p>[Diagram: Computing device [Calculator] → Broad intelligence systems → Sharp Intelligence products]</p>
+                   <div class="vspace-pos"></div>
+    <div class="center">
+        <div class="block">Computing device [Calculator]</div>
+        <div class="arrow arrow-red"><span style="color:red;">AI</span></div>
+        <div class="block">Broad intelligence systems</div>
+        <div class="arrow arrow-blue"><span>SHARP MACHINE</span></div>
+        <div class="block">Sharp Intelligence products</div>
+    </div>
             </section>
 
             <section>
